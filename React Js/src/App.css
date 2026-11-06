@@ -1,0 +1,48 @@
+/* App Container */
+.App {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Main Heading */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+}
+
+/* Paragraph */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .App {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
