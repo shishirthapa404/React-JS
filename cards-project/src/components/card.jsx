@@ -3,23 +3,24 @@ import {
   
 } from "lucide-react";
 
-const card = () => {
+const Card = ({data}) => {
+  // console.log(data);
   return (
     <div className="card">
 
         {/* Top Part */}
         <div className="top">
-          <img src="https://thumbs.dreamstime.com/b/icons-sample-psost-setting-428651105.jpg" alt="image" />
+          <img src={data.logo} alt={data.company} />
           <button>Save <Bookmark/></button>
         </div>
 
         {/* Middle Part */}
         <div className="middle">
-            <h3>Amazon <span>5 days ago</span></h3>
-            <h2>Senior UI/UX Designer</h2>
+            <h3>{data.company} <span>{data.posted}</span></h3>
+            <h2>{data.position}</h2>
             <div>
-                <button>Part Time</button>
-                <button>Senior Level</button>
+                <button>{data.jobType}</button>
+                <button>{data.experience}</button>
             </div>
         </div>
 
@@ -27,8 +28,8 @@ const card = () => {
         {/* Bottom Part*/}
         <div className="bottom">
             <div>
-                <h3>$120/hr</h3>
-                <span>New York, NY</span>
+                <h3>{data.salary}</h3>
+                <span>{data.location}</span>
             </div>
             <button>Apply Now</button>
         </div>
@@ -37,4 +38,4 @@ const card = () => {
   )
 }
 
-export default card
+export default Card

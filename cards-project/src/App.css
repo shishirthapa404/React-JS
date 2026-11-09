@@ -36,7 +36,7 @@
 .card-container{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   gap: 25px;
   width: 60%;
