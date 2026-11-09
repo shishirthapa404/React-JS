@@ -1,0 +1,81 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+/* H1 - Main Heading */
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -1px;
+  color: #111827;
+  /* margin-bottom: 16px; */
+}
+
+/* H2 - Section / Job Title */
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+  color: #1f2937;
+  /* margin-bottom: 12px; */
+}
+
+/* H3 - Subheading / Company Name */
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #374151;
+  /* margin-bottom: 10px; */
+}
+
+/* Small Text */
+span {
+  font-size: 13px;
+  font-weight: 400;
+  color: #5071aa;
+}
+
+
+
+
